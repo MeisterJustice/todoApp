@@ -1,7 +1,7 @@
-var express = require('express');
-var router = express.Router();
-var db = require("../models")
-var controllers = require("../controllers/todos");
+const express = require('express');
+const router = express.Router();
+const db = require("../models")
+const controllers = require("../controllers/todos");
 
 /* GET todos listing. */
 router.route("/")

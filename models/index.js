@@ -1,4 +1,4 @@
-var mongoose = require("mongoose");
+const mongoose = require("mongoose");
 mongoose.set("debug", true);
 // CONNECT TO MONGODB
 mongoose.connect('mongodb+srv://Justice:Justice1995@justice-u7xaw.mongodb.net/test?retryWrites=true&w=majority', {
